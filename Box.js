@@ -21,7 +21,7 @@ display(){
     rect(0,0,this.width,this.height);
     pop();}
     else{ 
-        World.remove(world,this,body);
+        World.remove(world,this.body);
         push();
         this.Visibility= this.Visibility - 5;
 pop();
